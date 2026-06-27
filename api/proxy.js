@@ -1,5 +1,5 @@
 // api/proxy.js
-const POWER_AUTOMATE_URL = "https://1851aa13258ce32bb4a8a9264b9335.8e.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/51d2dcd4261a4aea9428447073cc4522/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=t0nsF82fejfsYe8tKN7a12k6oeFu_iToODrwGJmVTv";
+const POWER_AUTOMATE_URL = "https://1851aa13258ce32bb4a8a9264b9335.8e.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/750e8bb23f4b49788a1a5722e5cf6f80/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=BR3M3BL8f9gjr6FMUbCR-uwuXjPGI_SuUUndqhPFi50";
 
 export default async function handler(req, res) {
   // CORS Headers ทุก request
